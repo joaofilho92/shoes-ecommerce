@@ -1,14 +1,16 @@
 import Nav from "./Navigation/Nav";
 import Products from "./Products/Products";
 import Recommended from "./Recommended/Recommended";
+import SideBar from "./SideBar/SideBar";
 
 
 function App() {
   return (
     <>
-      <Nav/>
-      <Products/>
-      <Recommended/>
+      <SideBar/>
+      <Nav />
+      <Recommended />
+      <Products />
     </>
   );
 }
